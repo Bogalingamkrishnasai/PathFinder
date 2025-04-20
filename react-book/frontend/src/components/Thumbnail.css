@@ -1,0 +1,38 @@
+.thumbnail-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    color: #0371e6;
+    font-weight: bolder;
+}
+
+.thumbnail-component div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.thumbnail-component img {
+    height: 120px;
+    width: 120px;
+    transition: transform 333ms ease;
+}
+
+.thumbnail-component p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 9px 0 0;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.thumbnail-component:hover img {
+    transform: scale(1.2);
+}

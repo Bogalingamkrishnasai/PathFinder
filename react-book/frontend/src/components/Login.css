@@ -1,0 +1,140 @@
+/* Login.css */
+.login-component {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem;
+}
+
+.login-container {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.login-component h2 {
+  color: #024596;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.login-component label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.login-component input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-top: 0.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login-component input:focus {
+  border-color: #024596;
+  box-shadow: 0 0 0 3px rgba(2, 69, 150, 0.1);
+  outline: none;
+}
+
+.login-component button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  background-color: #024596;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.login-component button[type="submit"]:hover {
+  background-color: #0066cc;
+  transform: translateY(-1px);
+}
+
+.login-component button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+.login-component h4 {
+  text-align: center;
+  margin: 1.5rem 0 1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.login-component button[type="button"] {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #024596;
+  color: #024596;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-component button[type="button"]:hover {
+  background-color: rgba(2, 69, 150, 0.05);
+  border-color: #0066cc;
+  color: #0066cc;
+}
+
+.wht-sps {
+  height: 50px;
+}
+
+/* Alert Styling */
+.alert {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.alert p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.alert p:first-child {
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .login-component h2 {
+    font-size: 1.75rem;
+  }
+}
