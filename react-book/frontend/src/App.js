@@ -25,6 +25,7 @@ import AppointmentManager from './components/AppointmentManager';
 import Roadmap from './components/Roadmap';
 
 axios.defaults.baseURL = 'https://pathfinder-2-yzmh.onrender.com';
+axios.defaults.withCredentials = true;
 
 const storageKey = 'cart';
 
