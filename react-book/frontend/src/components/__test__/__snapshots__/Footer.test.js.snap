@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component matches footer snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="footer-content"
+    >
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Pathfinder
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/about"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Career Resources
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/blog"
+            >
+              Career Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/guides"
+            >
+              Guides
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tools"
+            >
+              Career Tools
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Connect
+        </h4>
+        <div
+          class="social-links"
+        >
+          <a
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-twitter"
+            />
+          </a>
+          <a
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-linkedin"
+            />
+          </a>
+          <a
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-facebook"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-bottom"
+    >
+      © 2024 Pathfinder. All rights reserved.
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Footer Component renders copyright notice 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="footer-content"
+    >
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Pathfinder
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/about"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Career Resources
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/blog"
+            >
+              Career Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/guides"
+            >
+              Guides
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tools"
+            >
+              Career Tools
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Connect
+        </h4>
+        <div
+          class="social-links"
+        >
+          <a
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-twitter"
+            />
+          </a>
+          <a
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-linkedin"
+            />
+          </a>
+          <a
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-facebook"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-bottom"
+    >
+      © 2024 Pathfinder. All rights reserved.
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Footer Component renders footer with sections and links 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="footer-content"
+    >
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Pathfinder
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/about"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Career Resources
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/blog"
+            >
+              Career Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/guides"
+            >
+              Guides
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tools"
+            >
+              Career Tools
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Connect
+        </h4>
+        <div
+          class="social-links"
+        >
+          <a
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-twitter"
+            />
+          </a>
+          <a
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-linkedin"
+            />
+          </a>
+          <a
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-facebook"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-bottom"
+    >
+      © 2024 Pathfinder. All rights reserved.
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Footer Component renders social media links 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="footer-content"
+    >
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Pathfinder
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/about"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Career Resources
+        </h4>
+        <ul
+          class="footer-links"
+        >
+          <li>
+            <a
+              href="/blog"
+            >
+              Career Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/guides"
+            >
+              Guides
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tools"
+            >
+              Career Tools
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <h4>
+          Connect
+        </h4>
+        <div
+          class="social-links"
+        >
+          <a
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-twitter"
+            />
+          </a>
+          <a
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-linkedin"
+            />
+          </a>
+          <a
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="fab fa-facebook"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-bottom"
+    >
+      © 2024 Pathfinder. All rights reserved.
+    </div>
+  </footer>
+</DocumentFragment>
+`;

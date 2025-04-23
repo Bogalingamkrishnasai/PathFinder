@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentScheduler Component matches empty form snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="appointment-container"
+  >
+    <h2>
+      Schedule Appointment with Mentor
+    </h2>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label
+          for="mentor-select"
+        >
+          Select Mentor:
+          <select
+            class="form-control"
+            id="mentor-select"
+            required=""
+          >
+            <option
+              value=""
+            >
+              -- Select a Mentor --
+            </option>
+            <option
+              value="1"
+            >
+              Dr. Sarah Johnson - Programming Fundamentals
+            </option>
+            <option
+              value="2"
+            >
+              Prof. Mark Williams - Web Development
+            </option>
+            <option
+              value="3"
+            >
+              Dr. Lisa Chen - Data Structures & Algorithms
+            </option>
+            <option
+              value="4"
+            >
+              Mr. David Kim - Cloud Computing
+            </option>
+            <option
+              value="5"
+            >
+              Ms. Emily Rodriguez - Cybersecurity
+            </option>
+            <option
+              value="6"
+            >
+              Dr. James Wilson - AI & Machine Learning
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-date"
+        >
+          Appointment Date:
+          <input
+            class="form-control"
+            id="appointment-date"
+            min="2025-04-23"
+            required=""
+            type="date"
+            value=""
+          />
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-notes"
+        >
+          Notes (Optional):
+          <textarea
+            class="form-control"
+            id="appointment-notes"
+            placeholder="Any specific topics you'd like to discuss..."
+            rows="3"
+          />
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Schedule Appointment
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppointmentScheduler Component matches time slots selection snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="appointment-container"
+  >
+    <h2>
+      Schedule Appointment with Mentor
+    </h2>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label
+          for="mentor-select"
+        >
+          Select Mentor:
+          <select
+            class="form-control"
+            id="mentor-select"
+            required=""
+          >
+            <option
+              value=""
+            >
+              -- Select a Mentor --
+            </option>
+            <option
+              value="1"
+            >
+              Dr. Sarah Johnson - Programming Fundamentals
+            </option>
+            <option
+              value="2"
+            >
+              Prof. Mark Williams - Web Development
+            </option>
+            <option
+              value="3"
+            >
+              Dr. Lisa Chen - Data Structures & Algorithms
+            </option>
+            <option
+              value="4"
+            >
+              Mr. David Kim - Cloud Computing
+            </option>
+            <option
+              value="5"
+            >
+              Ms. Emily Rodriguez - Cybersecurity
+            </option>
+            <option
+              value="6"
+            >
+              Dr. James Wilson - AI & Machine Learning
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-date"
+        >
+          Appointment Date:
+          <input
+            class="form-control"
+            id="appointment-date"
+            min="2025-04-23"
+            required=""
+            type="date"
+            value="2024-12-31"
+          />
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="time-slots"
+        >
+          Available Time Slots:
+          <div
+            class="time-slots"
+          >
+            <button
+              class="time-slot "
+              type="button"
+            >
+              09:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              10:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              11:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              12:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              01:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              02:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              03:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              04:00 PM
+            </button>
+          </div>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-notes"
+        >
+          Notes (Optional):
+          <textarea
+            class="form-control"
+            id="appointment-notes"
+            placeholder="Any specific topics you'd like to discuss..."
+            rows="3"
+          />
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Schedule Appointment
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppointmentScheduler Component renders scheduler form 1`] = `
+<DocumentFragment>
+  <div
+    class="appointment-container"
+  >
+    <h2>
+      Schedule Appointment with Mentor
+    </h2>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label
+          for="mentor-select"
+        >
+          Select Mentor:
+          <select
+            class="form-control"
+            id="mentor-select"
+            required=""
+          >
+            <option
+              value=""
+            >
+              -- Select a Mentor --
+            </option>
+            <option
+              value="1"
+            >
+              Dr. Sarah Johnson - Programming Fundamentals
+            </option>
+            <option
+              value="2"
+            >
+              Prof. Mark Williams - Web Development
+            </option>
+            <option
+              value="3"
+            >
+              Dr. Lisa Chen - Data Structures & Algorithms
+            </option>
+            <option
+              value="4"
+            >
+              Mr. David Kim - Cloud Computing
+            </option>
+            <option
+              value="5"
+            >
+              Ms. Emily Rodriguez - Cybersecurity
+            </option>
+            <option
+              value="6"
+            >
+              Dr. James Wilson - AI & Machine Learning
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-date"
+        >
+          Appointment Date:
+          <input
+            class="form-control"
+            id="appointment-date"
+            min="2025-04-23"
+            required=""
+            type="date"
+            value=""
+          />
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-notes"
+        >
+          Notes (Optional):
+          <textarea
+            class="form-control"
+            id="appointment-notes"
+            placeholder="Any specific topics you'd like to discuss..."
+            rows="3"
+          />
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Schedule Appointment
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppointmentScheduler Component shows confirmation after successful submission 1`] = `
+<DocumentFragment>
+  <div
+    class="confirmation-container"
+  >
+    <h2>
+      Appointment Scheduled Successfully!
+    </h2>
+    <div
+      class="confirmation-details"
+    >
+      <p>
+        <strong>
+          Mentor:
+        </strong>
+         Dr. Sarah Johnson
+      </p>
+      <p>
+        <strong>
+          Specialty:
+        </strong>
+         Programming Fundamentals
+      </p>
+      <p>
+        <strong>
+          Date:
+        </strong>
+         12/30/2024
+      </p>
+      <p>
+        <strong>
+          Time:
+        </strong>
+         09:00 AM
+      </p>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      Schedule Another Appointment
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppointmentScheduler Component shows time slots after date is selected 1`] = `
+<DocumentFragment>
+  <div
+    class="appointment-container"
+  >
+    <h2>
+      Schedule Appointment with Mentor
+    </h2>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label
+          for="mentor-select"
+        >
+          Select Mentor:
+          <select
+            class="form-control"
+            id="mentor-select"
+            required=""
+          >
+            <option
+              value=""
+            >
+              -- Select a Mentor --
+            </option>
+            <option
+              value="1"
+            >
+              Dr. Sarah Johnson - Programming Fundamentals
+            </option>
+            <option
+              value="2"
+            >
+              Prof. Mark Williams - Web Development
+            </option>
+            <option
+              value="3"
+            >
+              Dr. Lisa Chen - Data Structures & Algorithms
+            </option>
+            <option
+              value="4"
+            >
+              Mr. David Kim - Cloud Computing
+            </option>
+            <option
+              value="5"
+            >
+              Ms. Emily Rodriguez - Cybersecurity
+            </option>
+            <option
+              value="6"
+            >
+              Dr. James Wilson - AI & Machine Learning
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-date"
+        >
+          Appointment Date:
+          <input
+            class="form-control"
+            id="appointment-date"
+            min="2025-04-23"
+            required=""
+            type="date"
+            value="2024-12-31"
+          />
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="time-slots"
+        >
+          Available Time Slots:
+          <div
+            class="time-slots"
+          >
+            <button
+              class="time-slot "
+              type="button"
+            >
+              09:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              10:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              11:00 AM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              12:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              01:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              02:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              03:00 PM
+            </button>
+            <button
+              class="time-slot "
+              type="button"
+            >
+              04:00 PM
+            </button>
+          </div>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-notes"
+        >
+          Notes (Optional):
+          <textarea
+            class="form-control"
+            id="appointment-notes"
+            placeholder="Any specific topics you'd like to discuss..."
+            rows="3"
+          />
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Schedule Appointment
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppointmentScheduler Component shows validation errors when submitting empty form 1`] = `
+<DocumentFragment>
+  <div
+    class="appointment-container"
+  >
+    <h2>
+      Schedule Appointment with Mentor
+    </h2>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label
+          for="mentor-select"
+        >
+          Select Mentor:
+          <select
+            class="form-control"
+            id="mentor-select"
+            required=""
+          >
+            <option
+              value=""
+            >
+              -- Select a Mentor --
+            </option>
+            <option
+              value="1"
+            >
+              Dr. Sarah Johnson - Programming Fundamentals
+            </option>
+            <option
+              value="2"
+            >
+              Prof. Mark Williams - Web Development
+            </option>
+            <option
+              value="3"
+            >
+              Dr. Lisa Chen - Data Structures & Algorithms
+            </option>
+            <option
+              value="4"
+            >
+              Mr. David Kim - Cloud Computing
+            </option>
+            <option
+              value="5"
+            >
+              Ms. Emily Rodriguez - Cybersecurity
+            </option>
+            <option
+              value="6"
+            >
+              Dr. James Wilson - AI & Machine Learning
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-date"
+        >
+          Appointment Date:
+          <input
+            class="form-control"
+            id="appointment-date"
+            min="2025-04-23"
+            required=""
+            type="date"
+            value=""
+          />
+        </label>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="appointment-notes"
+        >
+          Notes (Optional):
+          <textarea
+            class="form-control"
+            id="appointment-notes"
+            placeholder="Any specific topics you'd like to discuss..."
+            rows="3"
+          />
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Schedule Appointment
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

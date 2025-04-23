@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Component displays cart items when cart is not empty 1`] = `
+<DocumentFragment>
+  <div
+    class="cart-component"
+  >
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(173, 198, 168);"
+    >
+      Thank You, Your Order has been placed successfully.
+    </div>
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(245, 198, 203);"
+    >
+      <p>
+        There was an error submitting your order.
+      </p>
+      <p />
+      <p>
+        Please try again.
+      </p>
+    </div>
+    <h2>
+      Your Cart
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Item
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            2
+          </td>
+          <td />
+          <td>
+            $32.00
+          </td>
+          <td>
+            <button
+              type="button"
+            >
+              X
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1
+          </td>
+          <td />
+          <td>
+            $20.00
+          </td>
+          <td>
+            <button
+              type="button"
+            >
+              X
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      Subtotal: $52.00
+    </div>
+    <div
+      class="warning"
+    >
+      Please Enter ZIP Code to get total
+    </div>
+    <h2>
+      Fill the Details to Checkout
+    </h2>
+    <form>
+      <label
+        for="name"
+      >
+        Name
+        <input
+          id="name"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="phone"
+      >
+        Phone Number
+        <input
+          aria-label="Enter your phone number.
+ After a phone number is entered,
+ you will automatically be moved to the next field."
+          id="phone"
+          type="tel"
+          value=""
+        />
+      </label>
+      <label
+        for="zipcode"
+      >
+        ZIP Code
+        <input
+          id="zipcode"
+          inputmode="numeric"
+          maxlength="5"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        disabled=""
+        type="submit"
+      >
+        Order Now
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cart Component renders empty cart message when cart is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="cart-component"
+  >
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(173, 198, 168);"
+    >
+      Thank You, Your Order has been placed successfully.
+    </div>
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(245, 198, 203);"
+    >
+      <p>
+        There was an error submitting your order.
+      </p>
+      <p />
+      <p>
+        Please try again.
+      </p>
+    </div>
+    <h2>
+      Your Cart
+    </h2>
+    <div
+      class="wht-sps"
+    >
+      Your cart seems to be empty.
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cart Component submits order successfully 1`] = `
+<DocumentFragment>
+  <div
+    class="cart-component"
+  >
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(173, 198, 168);"
+    >
+      Thank You, Your Order has been placed successfully.
+    </div>
+    <div
+      class="alert-component false"
+      hidden=""
+      role="alert"
+      style="background-color: rgb(245, 198, 203);"
+    >
+      <p>
+        There was an error submitting your order.
+      </p>
+      <p />
+      <p>
+        Please try again.
+      </p>
+    </div>
+    <h2>
+      Your Cart
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Item
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            2
+          </td>
+          <td />
+          <td>
+            $32.00
+          </td>
+          <td>
+            <button
+              type="button"
+            >
+              X
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1
+          </td>
+          <td />
+          <td>
+            $20.00
+          </td>
+          <td>
+            <button
+              type="button"
+            >
+              X
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      Subtotal: $52.00
+    </div>
+    <div>
+      Tax: $1.04
+    </div>
+    <div>
+      Total: $53.04
+    </div>
+    <h2>
+      Fill the Details to Checkout
+    </h2>
+    <form>
+      <label
+        for="name"
+      >
+        Name
+        <input
+          id="name"
+          required=""
+          type="text"
+          value="John"
+        />
+      </label>
+      <label
+        for="phone"
+      >
+        Phone Number
+        <input
+          aria-label="Enter your phone number.
+ After a phone number is entered,
+ you will automatically be moved to the next field."
+          id="phone"
+          type="tel"
+          value="123-456-7890"
+        />
+      </label>
+      <label
+        for="zipcode"
+      >
+        ZIP Code
+        <input
+          id="zipcode"
+          inputmode="numeric"
+          maxlength="5"
+          required=""
+          type="text"
+          value="12345"
+        />
+      </label>
+      <button
+        disabled=""
+        type="submit"
+      >
+        Order Now
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
