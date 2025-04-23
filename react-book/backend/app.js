@@ -2,12 +2,18 @@ const express = require('express');
 const http = require('http');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const cors = require('cors');
 const config = require('./config');
 const routes = require('./routes');
 const webSocketServer = require('./webSocketServer');
 
 const app = express();
 const { port } = config;
+
+app.use(cors({
+  origin: 'https://pathfinder-3-cm06.onrender.com',
+  credentials: true,
+}));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
