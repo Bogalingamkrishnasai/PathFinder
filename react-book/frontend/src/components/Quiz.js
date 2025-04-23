@@ -168,6 +168,9 @@ function CareerQuiz() {
           <button type="button" onClick={() => window.location.reload()}>
             Retake Quiz
           </button>
+          <button type="button" className="home-button" onClick={() => { window.location.href = '/'; }}>
+            Home
+          </button>
         </div>
       ) : (
         <div className="question-container">

@@ -1,69 +1,89 @@
 .user-details-component {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
-.user-details-component div {
+.user-info {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
+/* Login/Orders Links */
 .user-details-component a {
-  color: #ffffff;
-  font-size: 0.85em;
-  text-decoration: underline;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-end;
-  min-width: 40px;
-  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
 
+.user-details-component a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
 
-
+/* Logout Button */
 .user-details-component button {
-  background-color: #1132c7;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 26px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1132c7;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
   border: none;
   cursor: pointer;
-  min-width: 32px;
-  margin-left: 6px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
+.user-details-component button:hover {
+  background-color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User Info */
 .user-details-component p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: white;
+  font-weight: 500;
   display: none;
-  margin: 0 10px 0 5px;
-  font-size: 24px;
-  color: #ffffff;
 }
 
 .user-details-component img {
-  margin-left: 6px;
-  width: 45px;
-  height: 45px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Desktop Styles */
 @media (min-width: 768px) {
+  .user-details-component {
+    gap: 20px;
+  }
 
   .user-details-component a {
-    margin-left: 20px;
+    font-size: 1rem;
+    padding: 8px 12px;
   }
 
   .user-details-component p {
     display: block;
-    margin: 0 40px 0 5px;
   }
 
   .user-details-component button {
-    min-width: 100px;
-    margin-left: 0;
+    padding: 8px 20px;
+    font-size: 1rem;
   }
 
   .user-details-component img {
-    margin-left: 40px;
+    width: 40px;
+    height: 40px;
   }
 }

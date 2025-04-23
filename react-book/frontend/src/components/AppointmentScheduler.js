@@ -28,6 +28,7 @@ function AppointmentScheduler() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!selectedMentor || !appointmentDate || !selectedSlot) {
+      // eslint-disable-next-line no-alert
       alert('Please select a mentor, date, and time slot');
       return;
     }

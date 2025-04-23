@@ -1,12 +1,10 @@
-import { useContext, useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Alert from './Alert';
-import CurrentUserContext from '../contexts/CurrentUserContext';
 import './Login.css';
 
 function Login() {
-  const { setCurrentUser } = useContext(CurrentUserContext);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [apiError, setApiError] = useState('');
@@ -16,12 +14,8 @@ function Login() {
   const login = async (event) => {
     event.preventDefault();
     try {
-      const result = await axios.post('/api/auth/login', {
-        username,
-        password,
-      });
-      setCurrentUser(result.data);
-      navigate('/');
+      await axios.post('/api/auth/login', { username, password });
+      window.location.href = '/'; // ✅ full reload for cart sync
     } catch (error) {
       console.error(error);
       setApiError(error?.response?.data?.error || 'Unknown Error');
@@ -32,7 +26,7 @@ function Login() {
     <div className="login-component">
       <Alert visible={!!apiError} type="error">
         <p>There was an error logging in.</p>
-        <p>{ apiError }</p>
+        <p>{apiError}</p>
         <p>Please try again.</p>
       </Alert>
       <h2>Welcome Back!</h2>

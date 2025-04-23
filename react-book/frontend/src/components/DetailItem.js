@@ -1,14 +1,22 @@
-import { useParams } from 'react-router-dom';
+import { useContext } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import CurrentUserContext from '../contexts/CurrentUserContext';
 import { itemImages } from '../items';
 import ItemType from '../types/item';
 import './DetailItem.css';
 
 function DetailItem({ addToCart, items }) {
+  const { currentUser } = useContext(CurrentUserContext);
+  const navigate = useNavigate();
   const { id } = useParams();
   const detailItem = items.find((item) => item.itemId === id);
 
-  const addItemToCart = () => {
+  const handleAddToCart = () => {
+    if (!currentUser?.username) {
+      navigate('/login');
+      return;
+    }
     addToCart(detailItem.itemId);
   };
 
@@ -29,7 +37,7 @@ function DetailItem({ addToCart, items }) {
           </div>
           <button
             type="button"
-            onClick={addItemToCart}
+            onClick={handleAddToCart}
           >
             Add to Cart
           </button>

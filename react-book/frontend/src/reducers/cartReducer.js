@@ -4,6 +4,7 @@ export const CartTypes = {
   ADD: 'ADD',
   EMPTY: 'EMPTY',
   REMOVE: 'REMOVE',
+  SYNC_FROM_SERVER: 'SYNC_FROM_SERVER',
 };
 
 const findItem = (cart, itemId) => cart.find((item) => item.itemId === itemId);
@@ -24,6 +25,8 @@ export const cartReducer = (state, action) => {
       return [];
     case CartTypes.REMOVE:
       return state.filter((item) => item.itemId !== action.itemId);
+    case CartTypes.SYNC_FROM_SERVER:
+      return action.payload;
     default:
       throw new Error(`Invalid action type ${action.type}`);
   }

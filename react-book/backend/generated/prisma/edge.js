@@ -116,7 +116,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\User\\Downloads\\PathFinder-main\\PathFinder-main\\react-book\\backend\\generated\\prisma",
+      "value": "C:\\Users\\krish\\Downloads\\CapstoneProject_2\\PathFinder\\react-book\\backend\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -130,7 +130,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\User\\Downloads\\PathFinder-main\\PathFinder-main\\react-book\\backend\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\krish\\Downloads\\CapstoneProject_2\\PathFinder\\react-book\\backend\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {

@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import UserDetails from './UserDetails';
 import CompanyLogo from '../images/pathfinder.png';
 import CartIcon from '../images/cart.svg';
-import UserDetails from './UserDetails';
 import './Header.css';
 
-function Header({ cart }) {
+function Header({ cart, dispatch }) {
   const cartQuantity = cart.reduce((acc, item) => acc + item.quantity, 0);
+
   return (
     <header className="header-component">
       <Link to="/" className="brand-link">
@@ -23,13 +24,12 @@ function Header({ cart }) {
           <img src={CartIcon} alt="Cart" className="cart-icon" />
           <div className="cart-badge">{cartQuantity}</div>
         </Link>
-        <UserDetails />
+        <UserDetails dispatch={dispatch} />
       </div>
     </header>
   );
 }
 
-// PropTypes for type-checking
 Header.propTypes = {
   cart: PropTypes.arrayOf(
     PropTypes.shape({
@@ -37,6 +37,7 @@ Header.propTypes = {
       quantity: PropTypes.number.isRequired,
     }),
   ).isRequired,
+  dispatch: PropTypes.func.isRequired,
 };
 
 export default Header;
