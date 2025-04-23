@@ -1,4 +1,5 @@
 import axios from 'axios';
+axios.defaults.baseURL = 'https://pathfinder-2-yzmh.onrender.com';
 import {
   useEffect, useMemo, useReducer, useState,
 } from 'react';
