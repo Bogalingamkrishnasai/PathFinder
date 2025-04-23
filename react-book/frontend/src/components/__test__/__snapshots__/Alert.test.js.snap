@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Component matches snapshot when not visible 1`] = `
+<DocumentFragment>
+  <div
+    class="alert-component false"
+    hidden=""
+    role="alert"
+    style="background-color: rgb(173, 198, 168);"
+  >
+    Test message
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert Component matches snapshot when visible 1`] = `
+<DocumentFragment>
+  <div
+    class="alert-component visible"
+    role="alert"
+    style="background-color: rgb(173, 198, 168);"
+  >
+    Test message
+  </div>
+</DocumentFragment>
+`;

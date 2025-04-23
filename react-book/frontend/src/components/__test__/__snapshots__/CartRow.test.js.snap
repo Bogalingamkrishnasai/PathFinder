@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartRow Component calls dispatch when remove button is clicked 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Test Item
+        </td>
+        <td>
+          $16.00
+        </td>
+        <td>
+          <button
+            type="button"
+          >
+            X
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`CartRow Component renders cart item details 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Test Item
+        </td>
+        <td>
+          $16.00
+        </td>
+        <td>
+          <button
+            type="button"
+          >
+            X
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`CartRow Component renders correctly with regular price when no sale price 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Test Item
+        </td>
+        <td>
+          $20.00
+        </td>
+        <td>
+          <button
+            type="button"
+          >
+            X
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`CartRow Component renders correctly with sale price 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Test Item
+        </td>
+        <td>
+          $16.00
+        </td>
+        <td>
+          <button
+            type="button"
+          >
+            X
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="header-component"
+  >
+    <a
+      class="brand-link"
+      href="/"
+    >
+      <img
+        alt="Pathfinder Logo"
+        class="logo"
+        src="test-file-stub"
+      />
+      <h1
+        class="brand-name"
+      >
+        Pathfinder
+      </h1>
+    </a>
+    <div
+      class="search-bar"
+    >
+      <input
+        class="search-input"
+        placeholder="Search..."
+        type="text"
+      />
+      <button
+        class="search-button"
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="menu"
+    >
+      <a
+        class="cart-link"
+        href="/cart"
+      >
+        My Cart
+        <img
+          alt="Cart"
+          class="cart-icon"
+          src="test-file-stub"
+        />
+        <div
+          class="cart-badge"
+        >
+          3
+        </div>
+      </a>
+      <div>
+        Mock UserDetails
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;
