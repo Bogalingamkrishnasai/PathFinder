@@ -1,6 +1,6 @@
-# Code Café Back-end
+# Pathfinder Back-end
 
-This is the back-end server for the Code Café application.
+This is the back-end server for the Pathfinder application.
 
 Run with `npm start`
 
@@ -18,4 +18,3 @@ Run with `npm start`
     - GET `/api/auth/current-user` returns the currently logged-in user or `{}` if no user is logged in
     - POST `/api/auth/login` with username and password as the JSON body logs in a user and returns 401 if the login is invalid
     - POST `/api/auth/logout` logs out a user
-- GET `/api/employees/isEmployeeOfTheMonth` with name as the search query returns a boolean indicating an employee of the month

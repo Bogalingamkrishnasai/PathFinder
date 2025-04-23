@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Alert from './Alert';
 import CurrentUserContext from '../contexts/CurrentUserContext';
-import './Login.css'; // Reuse existing CSS
+import './Login.css';
 
 function Signup() {
   const { setCurrentUser } = useContext(CurrentUserContext);

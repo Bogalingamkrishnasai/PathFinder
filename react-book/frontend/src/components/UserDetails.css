@@ -10,7 +10,6 @@
   gap: 12px;
 }
 
-/* Login/Orders Links */
 .user-details-component a {
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.9rem;
@@ -45,7 +44,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* User Info */
 .user-details-component p {
   margin: 0;
   font-size: 0.95rem;
@@ -62,7 +60,6 @@
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Desktop Styles */
 @media (min-width: 768px) {
   .user-details-component {
     gap: 20px;

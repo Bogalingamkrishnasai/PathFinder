@@ -25,8 +25,6 @@ app.get('/', (req, res) => {
 
 app.use('/', routes);
 
-// 4 params are required for the error handler even though we don't use them all
-// eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).send('Something broke!');
@@ -35,16 +33,10 @@ app.use((err, req, res, next) => {
 const server = http.createServer(app);
 
 server.on('upgrade', (request, socket, head) => {
-  // Skip auth since we don't have the cookie and would have to reconfigure the proxy to get it
-  // const user = getUser(request);
-  // if (user?.access !== 'associate') {
+
   webSocketServer.handleUpgrade(request, socket, head, (ws) => {
     webSocketServer.emit('connection', ws, request);
   });
-  // } else {
-  //     socket.write('HTTP/1.1 401 Unauthorized\r\n\r\n');
-  //     socket.destroy();
-  // }
 });
 
 server.listen(port, () => {

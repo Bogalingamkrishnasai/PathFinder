@@ -50,7 +50,7 @@ itemRoutes.get('/', (req, res) => {
         description: 'This course dives into the fundamentals of AI, machine learning (ML), deep learning, and natural language processing (NLP). Students will learn how to build and train models using Python, TensorFlow, PyTorch, and Scikit-Learn. Topics include supervised and unsupervised learning, neural networks, reinforcement learning, and AI ethics. The course includes hands-on projects such as chatbots, recommendation systems, and image classification.',
       },
     ]),
-    // Adds a fake server side delay
+    
     500,
   );
 });

@@ -15,7 +15,7 @@ function Login() {
     event.preventDefault();
     try {
       await axios.post('/api/auth/login', { username, password });
-      window.location.href = '/'; // ✅ full reload for cart sync
+      window.location.href = '/';
     } catch (error) {
       console.error(error);
       setApiError(error?.response?.data?.error || 'Unknown Error');

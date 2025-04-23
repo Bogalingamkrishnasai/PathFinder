@@ -2,7 +2,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = (app) => {
   app.use(createProxyMiddleware(
-    ['/api', '/ws-cafe'],
+    ['/api', '/pathfinder'],
     { target: 'http://localhost:3025', changeOrigin: true, ws: true },
   ));
 };

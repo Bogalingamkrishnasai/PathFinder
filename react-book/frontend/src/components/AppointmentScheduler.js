@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './AppointmentScheduler.css';
 
 function AppointmentScheduler() {
-  // Mock mentor data
   const mentors = [
     { id: '1', name: 'Dr. Sarah Johnson', specialty: 'Programming Fundamentals' },
     { id: '2', name: 'Prof. Mark Williams', specialty: 'Web Development' },
@@ -12,7 +11,6 @@ function AppointmentScheduler() {
     { id: '6', name: 'Dr. James Wilson', specialty: 'AI & Machine Learning' },
   ];
 
-  // Standard available time slots
   const standardTimeSlots = [
     '09:00 AM', '10:00 AM', '11:00 AM',
     '12:00 PM', '01:00 PM', '02:00 PM',
@@ -28,7 +26,7 @@ function AppointmentScheduler() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!selectedMentor || !appointmentDate || !selectedSlot) {
-      // eslint-disable-next-line no-alert
+      // eslint-disable-next-line
       alert('Please select a mentor, date, and time slot');
       return;
     }
