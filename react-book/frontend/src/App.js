@@ -1,5 +1,4 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'https://pathfinder-2-yzmh.onrender.com';
 import {
   useEffect, useMemo, useReducer, useState,
 } from 'react';
@@ -24,6 +23,8 @@ import Signup from './components/Signup';
 import AppointmentScheduler from './components/AppointmentScheduler';
 import AppointmentManager from './components/AppointmentManager';
 import Roadmap from './components/Roadmap';
+
+axios.defaults.baseURL = 'https://pathfinder-2-yzmh.onrender.com';
 
 const storageKey = 'cart';
 
