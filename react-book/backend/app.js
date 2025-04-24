@@ -11,7 +11,7 @@ const app = express();
 const { port } = config;
 
 app.use(cors({
-  origin: 'https://pathfinder-2-ugde.onrender.com/',
+  origin: 'https://pathfinder-2-ugde.onrender.com',
   credentials: true,
 }));
 
